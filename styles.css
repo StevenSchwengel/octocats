@@ -1,0 +1,44 @@
+
+* {
+  background: Green;
+}
+
+/* <img src="example.png" style="width:2em; height:3em;" /> */
+
+
+.octocat {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+
+.octocat img {
+  height: 12em;
+  width: 13em;
+}
+
+.authors img {
+  height: 2em;
+  width: 3em;
+}
+
+/*
+.authors .ul {
+  display:inline-block;
+}
+
+
+height: 2em;
+width: 3em;
+
+
+.image-caption .img {
+  height: 50px;
+  width: 50px;
+}
+
+.authors .img {
+  height: 50px;
+  width: 50px;
+} */
