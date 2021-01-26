@@ -1,21 +1,30 @@
 
 * {
   background: Green;
+  margin: 10;
 }
 
 /* <img src="example.png" style="width:2em; height:3em;" /> */
 
+ul.authors {
+    list-style-type: none;
+}
+
 
 .octocat {
   display: inline-block;
-  width: 200px;
+  width: auto;
+
+  /* width: 200px;
   height: 100px;
-  margin: 1em;
+  margin: 1em; */
 }
 
 .octocat img {
-  height: 12em;
-  width: 13em;
+
+  max-width:450px;
+  height:auto;
+  border: 1px solid #808080
 }
 
 .authors img {
@@ -23,22 +32,6 @@
   width: 3em;
 }
 
-/*
-.authors .ul {
-  display:inline-block;
+.image-footer {
+  border-bottom: 3px solid #808080
 }
-
-
-height: 2em;
-width: 3em;
-
-
-.image-caption .img {
-  height: 50px;
-  width: 50px;
-}
-
-.authors .img {
-  height: 50px;
-  width: 50px;
-} */
