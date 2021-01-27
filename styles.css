@@ -1,37 +1,55 @@
-
 * {
-  background: Green;
+  padding: 20;
   margin: 10;
 }
 
 /* <img src="example.png" style="width:2em; height:3em;" /> */
-
-ul.authors {
-    list-style-type: none;
-}
-
-
 .octocat {
   display: inline-block;
   width: auto;
-
-  /* width: 200px;
-  height: 100px;
-  margin: 1em; */
 }
 
 .octocat img {
-
-  max-width:450px;
-  height:auto;
+  max-width: 450px;
+  height: auto;
   border: 1px solid #808080
 }
 
 .authors img {
   height: 2em;
   width: 3em;
+  /* position: right:0; */
+}
+
+.authors {
+  font-weight: 900;
+}
+
+ul.authors {
+  list-style-type: none;
+}
+
+.image-number {
+  font-weight: bold;
+  /* position:left:0; */
+}
+
+/* .image-number:before {
+  content "#";
+} */
+.image-number::before  {
+  content: "#";
+}
+
+.image-caption {
+  font-weight: bold;
+}
+
+.image-caption a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .image-footer {
-  border-bottom: 3px solid #808080
+  border-bottom: 1px solid #808080
 }
