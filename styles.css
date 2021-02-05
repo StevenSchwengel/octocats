@@ -1,6 +1,6 @@
 * {
-  padding: 20;
-  margin: 10;
+  /* padding: 40; */
+  padding: 10;
 }
 
 /* <img src="example.png" style="width:2em; height:3em;" /> */
@@ -23,6 +23,7 @@
 
 .authors {
   font-weight: 900;
+  display:inline-block;
 }
 
 ul.authors {
@@ -34,14 +35,12 @@ ul.authors {
   /* position:left:0; */
 }
 
-/* .image-number:before {
-  content "#";
-} */
 .image-number::before  {
   content: "#";
 }
 
 .image-caption {
+  text-align: right;
   font-weight: bold;
 }
 
@@ -51,5 +50,7 @@ ul.authors {
 }
 
 .image-footer {
+  display: block;
+  line-height: 1em;
   border-bottom: 1px solid #808080
 }
